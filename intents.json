@@ -1,0 +1,103 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there", "Is anyone there?", "Hey", "Hello", "Greetings", 
+                "What's up?", "Hi", "Hey there", "Hello there"
+            ],
+            "responses": [
+                "Good to see you again, how can I help?", "Hi there, how can I help?", 
+                "Hey! How can I assist you today?", "Hello! What can I do for you?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Quit", "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", 
+                "Till next time", "Catch you later", "See ya", "I'm leaving", "Take care"
+            ],
+            "responses": [
+                "See you!", "Have a nice day", "Bye! Come back again soon.", 
+                "Goodbye! Have a great day!", "Take care! See you soon."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", "Thank you", "That's helpful", "Awesome, thanks", 
+                "Thanks for helping me", "I appreciate it", "Much appreciated", "Thanks a lot", "Thank you very much"
+            ],
+            "responses": [
+                "My pleasure", "You're welcome", "Glad to help!", 
+                "Anytime! Happy to help.", "You're welcome! Let me know if there's anything else."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your hours?", "When are you open?", "What are your opening hours?", 
+                "Can you tell me your opening times?", "What time do you open?", "What time do you close?"
+            ],
+            "responses": [
+                "We're open every day from 9am to 9pm.", "Our hours are from 9am to 9pm every day.", 
+                "We operate daily from 9 in the morning until 9 in the evening."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "shopping_list",
+            "patterns": [
+                "Items and shelfs", "Items", "Find items", "Need to buy", "I want to buy", "I need to buy these items: apples, bananas, bread", "Where can I find milk, eggs, and cheese?", 
+                "I have a shopping list: tomatoes, lettuce, chicken", "Can you tell me where to find these items: apples, bread, milk?", 
+                "Which shelves are these items on: eggs, cheese, lettuce?", "Where are the items on my shopping list?",
+                "Apple?", "Banana?", "Bread?", "Milk?", "Egg?", "Cheese?", "Tomato?", "Lettuce?", "Chicken?", "Carrot?", "Potato?", "Onion?", "Cucumber?", "Pasta?", "Rice?", "Flour?", "Sugar?", "Salt?", "Pepper?", "Beef?", "Pork?", "Fish?", "Shrimp?", "Yogurt?", "Butter?", "Juice?", "Water?", "Soda?", "Beer?", "Wine?", "Whiskey?", "Shampoo?", "Soap?", "Toothpaste?", "Brush?", "Detergent?", "Bleach?"
+            ],
+            "responses": [
+                "Let me check the shelf numbers for these items...", "let me find the shelves for these items...", 
+                "Hold on, I'll look up the shelf locations for these items...", "I'll find the shelf numbers for you, one moment..."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Payment methods", "What payment methods do you accept?", "How can I pay?", "Do you accept credit cards?", 
+                "Can I pay with cash?", "Is Apple Pay accepted?", "Do you take debit cards?", "Payment"
+            ],
+            "responses": [
+                "We accept cash, credit cards, debit cards, and Apple Pay.", 
+                "You can pay with cash, credit card, debit card, or Apple Pay.", 
+                "We accept various payment methods including cash, credit cards, debit cards, and Apple Pay."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "yes",
+            "patterns": [
+                "yes", "yep", "yeah", "sure", "okay","of course", 
+                "absolutely", "definitely", "please"
+            ],
+            "responses": [
+                "Great! what can I do for you?", "Sure thing. what do you need?", "Of course! what can I do for you?", "Absolutely. what can I do for you?", "Okay, how can I help you?", 
+                "Sure, what do you need?", "Alright, how can I assist you?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no", "nope", "not really", "nah", "sorry, no", "not now", 
+                "I don't think so", "negative", "no thanks", "I'm good"
+            ],
+            "responses": [
+                "Okay, Goodbye", "No worries! see you later", "Alright then, catch you later",
+                "Got it, maybe next time.", "Sure thing, let me know if you need anything else."
+            ],
+            "context": [""]
+        }
+    ]
+}
